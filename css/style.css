@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400px;
+}
+body{
+  
+  display: flex;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.mainnavbar {
+  display: flex;
+}
+
+.navbar a.active ,
+.navbar a:hover{
+  color: #00EEFF;
+
+  box-sizing: border-box;
+
+}
+.navbar ul li a:after {
+  background: #00EEFF;
+  transition: 0.3s;
+ 
+}
+
+
+
+.headerlogo {
+    width: 20%;
+}
+.headerlogo h1 {
+    font-size: 1.8rem;
+    color: #00EEFF;
+}
+.mainmenupc{
+  width: 80%;
+}
+.mainmenupc ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.mainmenupc ul li{
+  padding: 2rem;
+  list-style: none;
+  
+}
+.mainmenupc ul li {
+    padding: 10px 30px;
+    font-size: 18px;
+}
+.mobilemenu{
+  display: none;
+}
+
+
+.main{
+  padding: 20px;
+  float: left;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+
+.photomain{
+  float: right;
+}
+.photomain img{
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  margin-right: 40px;
+}
+
+.homecontent{
+  width: 50%;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-top: 40px;
+
+}
+.homecontent span{
+  color: #00EEFF;
+  font-size: 40px;
+  font-weight: 700px;
+  font-family: 'Playfair Display', serif;
+
+}
+.homecontent h2{
+  font-weight: 400px;
+  font-size: 35px;
+}
+.aboutme {
+  text-align: justify;
+  font-weight: 400px;
+  font-size: 25px;
+
+}
+
+.project{
+  width: 90%;
+  justify-content: space-between;
+}
+
+.projectphoto{
+  width:50%;
+  
+
+}
+
+.projectphoto img{
+  width: 550px ;
+  height: 316.077px;
+  margin-right: 40px;
+  margin-top: 90px;
+
+}
+
+
+.maindescription{
+  width: 50%;
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-top: 0px;
+  float: right;
+  
+}
+
+.btechwallehdesc{
+  text-align: justify;
+  font-weight: 400px;
+  font-size: 25px;
+  margin-right: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+  .mainmenupc ul li {
+    padding: 10px 12px;
+  }
+
+  
+  .homecontent{
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  
+  }
+
+  .maindescription{
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-top: 0px;
+    float: left;
+    
+  }
+
+  .projectphoto img{
+    width: 300px ;
+    height: 201.14px;
+    margin-right: 0px;
+  
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+  .mainmenupc{
+    display: none;
+  }
+  .mobilemenu {
+    display: block;
+    width: 50%;
+    text-align: right;
+  }
+  .headerlogo {
+     width: 50%;
+
+  }
+  
+
+  .homecontent{
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  
+  }
+  
+  
+  .photomain{
+    float: right;
+    
+  }
+  .photomain img{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .project{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .projectphoto{
+    width:100%;
+    height: 350px;
+    width: 350px;
+    float: center;
+  }
+  .projectphoto img{
+    height: 316.077px;
+    width: 550px;
+    
+  }
+
+
+  .maindescription{
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 40px;
+    float: right;
+    
+  }
+
+}
+
+/*small mobile phone */
+
+@media screen and (max-width: 650px){
+  .main{
+    padding: 10px;
+    float: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+
+  .homecontent{
+    width: 95%;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  
+  }
+  .photomain img{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+
+  .projectphoto img{
+    height: 201.24px;
+    width: 350px;
+    float:left;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #be8f4e;
+  transition: 0.5s;
+}
+.mobilemenu span {
+    color: #000000;
+    line-height: 80px;
+}
+.sidenav ul {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+}
+.sidenav ul li {
+    padding: 8px;
+    font-size: 1.5rem;
+}
+a.closebtn {
+    text-align: right;
+    font-size: 2rem;
+    margin: 20px;
+}
+

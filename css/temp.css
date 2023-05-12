@@ -1,0 +1,143 @@
+.pre{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1;
+
+ }
+ .mainname{
+    color: aqua;
+ }
+
+
+
+
+/* css for the  tablet */
+
+@media(max-width:1080px){
+    body{
+        background-color: rgba(243, 243, 243, 0.908);
+        
+    }
+    .navbar{
+        overflow: hidden;
+       
+            
+    }
+    
+    nav{
+        text-align: right;
+    }
+    
+     nav a{
+        padding: 14px 16px;
+        color: #030303;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 20px;
+        
+        
+        
+    }
+    
+    
+    nav a:hover,
+    nav a:focus {
+        outline: none;
+        background-color: rgba(20, 198, 207, 0.479);
+        
+    
+        
+      
+    }
+    
+    
+    
+}
+
+
+
+
+	
+
+/* css for the  mobile */
+
+@media(max-width:480px){
+    body{
+        background-color: rgba(84, 164, 22, 0.753);
+        
+    }
+    .navbar{
+        overflow: hidden;
+        
+            
+    }
+    
+    nav{
+        text-align: right;
+    }
+    
+     nav a{
+        padding: 14px 16px;
+        color: #030303;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-size: 20px;
+        
+        
+        
+    }
+    
+    
+    nav a:hover,
+    nav a:focus {
+        outline: none;
+        background-color: rgba(20, 212, 222, 0.479);
+        
+    
+        
+      
+    }
+    img{
+        float: center;
+        border-radius: 50%;
+        width: 550px;
+        height: 400px;
+    
+        
+    
+    }
+    p{
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 400;
+    
+     }
+    
+    
+    
+}
+
+
+img{
+    float: right;
+    border-radius: 50%;
+}
+
+
+
+
+	

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">    
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mainnavbar">
+            <div class="headerlogo">
+                <a href="" class="logos"><h1>divyanshunishad.me</h1></a>
+            </div>
+            <div class="mainmenupc">
+                <ul class="navbar">
+                    <li>
+                        <a href="" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Project</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul> 
+            </div>
+            <div class="mobilemenu">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <div class="sidenav" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul class="navbarmobile">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Project</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                    </ul> 
+
+                </div>
+               
+            </div>
+
+                      
+        </div>
+        
+        <section class="main">
+            <div >
+                <div class="photomain">
+                    <img src="img/photomain.png">
+                </div>
+                <div class="homecontent">
+                    <h1><span class="mainname"><b> DIVYANSHU</b></span></h1>
+                        <h2>CS Ungergrad at </h2>
+                        <h2>Quantum University </h2>
+                        <p class="aboutme">I might not be the most qualified or skilled candidate for a certain role or position, but I
+                             compensate for my lack of experience with enthusiasm.
+                            I am always keen and excited to learn new things and meet new people
+                            and I believe any new tech stack or skill can be picked up easily and quickly
+                            if you have your basics clear and your heart at the right place.
+                        </p>
+                </div>
+            </div>
+            <h1 style="font-size: 40px; text-align: center; font-family: 'Playfair Display', serif;">Projects</h1>
+            <p style="text-align: justify; font-size: 18px; font-weight: 400px;">Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
+          </section>
+          <section class="project">
+            <div class="">
+                
+                <div class="maindescription">
+                    <h1>B.tech Walleh</h1>
+                    <p class="btechwallehdesc">B.tech Walleh Is a Successful 
+                        Open-Source Project
+                         That I Created ,It The Best 
+                        Platform To Learn Cloud Skill
+                        And Web Development Stuffs.</p>
+                </div>
+                <div class="projectphoto">
+                    <img src="img/mobile.png">
+                </div>
+            </div>
+          </section>   
+    </div>
+
+  
+    
+</body>
+</html>
